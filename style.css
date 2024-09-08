@@ -1,0 +1,56 @@
+*{
+    background-color: black;
+    background-size: cover;
+
+}
+body {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px; 
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+p{color: white;
+    text-align: justify;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.foto1 {
+    width: 600px;
+
+}
+
+strong{ text-decoration: underline;}
+
+.foto2{
+    width: 600px;
+}
+
+em {
+    background-color: blue;
+}
+
+em.uno {
+    text-decoration: underline;
+}
+
+em.dos{
+    text-decoration: underline
+}
+
+em.tres{
+    text-decoration: underline
+}
+
+#final{
+    color: burlywood;
+}
