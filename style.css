@@ -5,16 +5,26 @@
 }
 body {
     float: none;
-    margin-left: auto;
-    margin-right: auto;
+    
     text-align: center;
     width: 1000px; 
 }
 
-h1{
-    color: white;
+.container {
+    display:flex;
+flex-wrap: wrap;
+}
+
+
+.display3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    margin-bottom: 1em;
+
 }
 h2{
+    text-align: center;
     color: white;
 }
 
@@ -22,10 +32,14 @@ p{color: white;
     text-align: justify;
     font-size: 15px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+}
 
-.foto1 {
-    width: 600px;
+.img-fluid {
+    min-width: 250;
+
 
 }
 
@@ -53,4 +67,6 @@ em.tres{
 
 #final{
     color: burlywood;
+    flex-basis: 100%;
+    margin-bottom: 1em;
 }
